@@ -17,7 +17,10 @@ public class UsuarioController {
     @GetMapping (path= "/api/usuario")
     public List<UsuarioModel>getUsers(){
         return (List<UsuarioModel>) repository.findAll();
-
+    }
+    @GetMapping (path= "/api/usuario/{id}")
+    public UsuarioModel getUserById(@PathVariable("id") long id){
+        return repository.findById(id).orElseThrow();
     }
     @PostMapping (path ="/api/usuario/cadastro")
     public String salvar(@RequestBody UsuarioModel usuario){
@@ -40,4 +43,5 @@ public class UsuarioController {
         repository.delete(deletar);
         return "Deleted..."+id;
     }
+
 }

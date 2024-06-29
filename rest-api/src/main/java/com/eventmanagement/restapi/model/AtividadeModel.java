@@ -25,7 +25,6 @@ public class AtividadeModel {
     @Column(nullable = false, length = 500)
     private String data;
 
-
     @Column(nullable = false, length = 500)
     private String horarioinicial;
 
@@ -44,7 +43,7 @@ public class AtividadeModel {
     @JoinColumn(name = "espaco_id")
     private EspacoModel espaco;
 
-    @ManyToMany(mappedBy = "atividadesFavoritas")
+    @Transient
     private Set<UsuarioModel> usuariosFavoritaram;
 
     public long getId() {

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "login": "usuarioTeste",
+    "name": "teste",
+    "email": "usuario@teste.com",
+    "affiliation": "user",
+    "atividadesFavoritas": null
+  },
+  {
+    "id": 2,
+    "login": "usuarioTeste2",
+    "name": "teste2",
+    "email": "usuario2@teste.com",
+    "affiliation": "user",
+    "atividadesFavoritas": null
+  },
+  {
+    "id": 3,
+    "login": "edumsiqueira",
+    "name": "eduardo",
+    "email": "eduardoms@id.uff.br",
+    "affiliation": "admin",
+    "atividadesFavoritas": null
+  }
+]

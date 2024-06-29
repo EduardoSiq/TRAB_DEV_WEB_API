@@ -19,7 +19,7 @@ public class UsuarioModel {
     @Column (nullable = false, length = 50)
     public String affiliation;
 
-    @ManyToMany
+    @Transient
     private Set<AtividadeModel>atividadesFavoritas;
     public Long getId() {
         return id;

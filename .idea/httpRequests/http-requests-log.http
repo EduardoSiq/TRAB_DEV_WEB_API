@@ -1,0 +1,334 @@
+GET http://localhost:8080/api/events
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T205451.500.json
+
+###
+
+POST http://localhost:8080/api/events/cadastro
+Content-Type: application/json
+Content-Length: 134
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "name": "aula_dev_web_adv",
+  "abbreviation": "dwa",
+  "description": "Evento para matéria de API",
+  "editions": []
+}
+
+<> 2024-06-27T205441.200.txt
+
+###
+
+GET http://localhost:8080/api/events
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T205415.500.json
+
+###
+
+PUT http://localhost:8080/api/events/atualizar/1
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T205400.400.json
+
+###
+
+POST http://localhost:8080/api/events/cadastro
+Content-Type: application/json
+Content-Length: 134
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "name": "aula_dev_web_adv",
+  "abbreviation": "dwa",
+  "description": "Evento para matéria de API",
+  "editions": []
+}
+
+<> 2024-06-27T205330.200.txt
+
+###
+
+POST http://localhost:8080/api/events/cadastro
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T205205.400.json
+
+###
+
+GET http://localhost:8080/api/usuario
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T204931.200.json
+
+###
+
+GET http://localhost:8080/api/usuario/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T204925.200.json
+
+###
+
+POST http://localhost:8080/api/usuario/cadastro
+Content-Type: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 3,
+  "login": "edumsiqueira",
+  "name": "eduardo",
+  "email": "eduardoms@id.uff.br",
+  "affiliation": "admin",
+  "atividadesFavoritas": []
+}
+
+<> 2024-06-27T204922.200.txt
+
+###
+
+POST http://localhost:8080/api/usuario/cadastro
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 2,
+  "login": "usuarioTeste2",
+  "name": "teste2",
+  "email": "usuario2@teste.com",
+  "affiliation": "user",
+  "atividadesFavoritas": []
+}
+
+<> 2024-06-27T204921.200.txt
+
+###
+
+POST http://localhost:8080/api/usuario/cadastro
+Content-Type: application/json
+Content-Length: 145
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "login": "usuarioTeste",
+  "name": "teste",
+  "email": "usuario@teste.com",
+  "affiliation": "user",
+  "atividadesFavoritas": []
+}
+
+<> 2024-06-27T204919.200.txt
+
+###
+
+GET http://localhost:8080/api/usuario/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T204852.404.json
+
+###
+
+GET http://localhost:8080/api/usuario/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T204646.404.json
+
+###
+
+GET http://localhost:8080/api/usuario
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T204639.200.json
+
+###
+
+GET http://localhost:8080/api/usuario/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T204630.404.json
+
+###
+
+POST http://localhost:8080/api/usuario/cadastro
+Content-Type: application/json
+Content-Length: 150
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 3,
+  "login": "edumsiqueira",
+  "name": "eduardo",
+  "email": "eduardoms@id.uff.br",
+  "affiliation": "admin",
+  "atividadesFavoritas": []
+}
+
+<> 2024-06-27T204629.200.txt
+
+###
+
+POST http://localhost:8080/api/usuario/cadastro
+Content-Type: application/json
+Content-Length: 148
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 2,
+  "login": "usuarioTeste2",
+  "name": "teste2",
+  "email": "usuario2@teste.com",
+  "affiliation": "user",
+  "atividadesFavoritas": []
+}
+
+<> 2024-06-27T204627.200.txt
+
+###
+
+GET http://localhost:8080/api/usuario/2
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T204621.404.json
+
+###
+
+GET http://localhost:8080/api/usuario
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T203804.200.json
+
+###
+
+POST http://localhost:8080/api/usuario/cadastro
+Content-Type: application/json
+Content-Length: 145
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "login": "usuarioTeste",
+  "name": "teste",
+  "email": "usuario@teste.com",
+  "affiliation": "user",
+  "atividadesFavoritas": []
+}
+
+<> 2024-06-27T203759.200.txt
+
+###
+
+GET http://localhost:8080/api/usuario
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T201637.500.json
+
+###
+
+POST http://localhost:8080/api/usuario/cadastro
+Content-Type: application/json
+Content-Length: 145
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 1,
+  "login": "usuarioTeste",
+  "name": "teste",
+  "email": "usuario@teste.com",
+  "affiliation": "user",
+  "atividadesFavoritas": []
+}
+
+<> 2024-06-27T201626.200.txt
+
+###
+
+GET http://localhost:8080/api/usuario
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T201625.200.json
+
+###
+
+GET http://localhost:8080/api/usuario
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-06-27T201224.200.json
+
+###
+
